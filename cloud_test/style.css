@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+ .feature-icon {
+     width: 4rem;
+     height: 4rem;
+     border-radius: 0.75rem;
+ }
+ 
+.Configuration {
+    background: white;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.specs,
+.price-display {
+    display: none;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+input[type="range"],
+select {
+    width: 100%;
+}
+
+.price {
+    font-size: 24px;
+    color: green;
+    margin-top: 20px;
+}
+
+.slider-value {
+    margin-top: -12px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.container4,
+.container4-fluid,
+.container4-lg,
+.container4-md,
+.container4-sm,
+.container4-xl,
+.container4-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+
+/*contact style*/
+ .row {
+     width: 100%;
+     max-width: 1200px;
+     margin-left: 80px;
+ }
+
+ .col-lg-2 {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .col-lg-2 img {
+     width: 140px;
+     height: 140px;
+     border-radius: 50%;
+     object-fit: cover;
+     margin-bottom: 20px;
+ }
+
+ .col-lg-2 h2 {
+     margin-top: 30px;
+ }
+
+
+
+
+/*bill style*/
+
+ .card {
+    margin-bottom: 20px;
+}
+
+.usage-bar {
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.usage-fill {
+    height: 100%;
+}
+
+.usage-fill.vm {
+    background-color: #007bff;
+}
+
+.usage-fill.storage {
+    background-color: #28a745;
+}
+
+.usage-fill.network {
+    background-color: #ffc107;
+}
+
+.invoice {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+.company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.invoice-section {
+    margin-bottom: 20px;
+}
+
+.invoice .usage-bar {
+    height: 15px;
+}
+
+.invoice-header,
+.invoice-footer {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.invoice-header h2 {
+    margin-bottom: 5px;
+}

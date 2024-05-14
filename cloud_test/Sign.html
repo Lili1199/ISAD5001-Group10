@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Service Configuration</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        display: flex;
+        align-items: center; /* Aligns vertically */
+        justify-content: center; /* Aligns horizontally */
+        min-height: 100vh; /* Minimum height of the viewport */
+        margin: 0; /* Removes default margin */
+      }
+      #signbox {
+        width: 100%; /* Adjust width as necessary */
+        max-width: 420px; /* Max width for the sign box */
+        padding: 20px; /* Padding around the sign box */
+      }
+
+      .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+      .form-check {
+        display: flex; /* 使用 flexbox 保证元素水平排列 */
+        align-items: center; /* 垂直居中对齐 */
+      }
+      .form-check-input {
+        margin-top: 10px; /* 如果需要，可以调整复选框的位置 */
+        margin-right: 10px; /* 在复选框和标签之间添加一些间隔 */
+      }
+    </style>
+  </head>
+
+  <body class="d-flex align-items-center py-4 bg-body-tertiary">
+    <div id="signbox">
+      <main class="form-signin w-100 m-auto">
+        <form>
+          <img
+            class="mb-4"
+            src="./image/cloud.svg"
+            alt=""
+            width="72"
+            height="57"
+          />
+          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+          <div class="form-floating">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input
+              type="password"
+              class="form-control"
+              id="floatingPassword"
+              placeholder="Password"
+            />
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="form-check text-start my-3">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value="remember-me"
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Remember me
+            </label>
+          </div>
+          <button class="btn btn-primary w-100 py-2" type="submit">
+            Sign in
+          </button>
+          <p class="mt-5 mb-3 text-body-secondary">© 2024</p>
+        </form>
+      </main>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
